@@ -2,6 +2,7 @@ sval='1234'
 type(sval)
 print(type(sval))
 print(sval)
+# print(sval+2)
 tval=int(sval)
 type(tval)
 print(type(tval))
