@@ -22,6 +22,20 @@ print(float(80)+100)
 print(int(70)+100)
 print(int(40)+100.0)
 print(int(30)+float(25))
+print(10/2)
+print(9/2)
+print(99/100)
+print(10.0/2.0)
+print(99.0/100.0)
+print(10/2*6)
+print(10*30/2)
+a= 1+2**3/4*5
+print ("a= ",a)
+b= 1+2*3-400/10**2
+print ("b=",b)
+print ("Integer division produces a floating point result")
+print ("conecpts of variable types and integer division is cleared")
+
 
 
 
