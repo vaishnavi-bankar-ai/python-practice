@@ -11,3 +11,12 @@ except:
     istr=-1
 print("Second",istr)
 
+#try and except structure practice
+astr="Bob"
+try:
+    print("hello")
+    istr=int(astr)
+    print("there")
+except:
+    istr=-1
+print("Done",istr)
