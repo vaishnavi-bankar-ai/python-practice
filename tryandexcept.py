@@ -20,3 +20,14 @@ try:
 except:
     istr=-1
 print("Done",istr)
+# add input function into the try and except structure code :
+rawstr= input("Enter a number:")
+try:
+    ival=int(rawstr)
+except:
+    ival=-1
+if ival>0:
+    print("Nice Work")
+else:
+    print("Not a Number")    
+    
