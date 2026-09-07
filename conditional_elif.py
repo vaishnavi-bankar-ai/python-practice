@@ -1,4 +1,6 @@
-x=5
+# Conditional Statement : multi-Way decisions elif keyword topic  practice
+num=input("Enter the number")
+x=int(num)
 if x<2:
     print("Small")
 elif x<10:
