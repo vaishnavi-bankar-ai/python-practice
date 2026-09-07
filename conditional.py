@@ -37,3 +37,13 @@ for i in range(5):
         print("Bigger than 2")
     print("Done with i",i)
 print("All Done")
+# Conditional Statement:Nested Decisions topic code practice
+x=42
+if x>1:
+    print("x is more than 1")
+    if x<40:
+        print("x is less than 40")
+    if x<100:
+        print("x is less than 100")
+    print("nested loop") 
+print("All DoneSS")
