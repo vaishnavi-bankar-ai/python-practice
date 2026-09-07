@@ -47,3 +47,10 @@ if x>1:
         print("x is less than 100")
     print("nested loop") 
 print("All DoneSS")
+# Conditional Statement: Two-Way Decisions topic code practice
+x=1
+if x>2:
+    print("x is bigger")
+else:
+    print("x is not bigger")
+print ("Two way Decision concept clear")
