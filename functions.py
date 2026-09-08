@@ -6,3 +6,7 @@ def thing():
 thing()
 print("function's very basic code")
 thing()
+# max function: built-in function ; appearently lowercase letters are bigger than uppercase letters
+#max function : basic practice code
+big = max("Hello world")
+print(big)
