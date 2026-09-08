@@ -31,3 +31,17 @@ print("Yes")
 print_lyrics()
 x=x+2
 print(x)
+# parameter : parameter is a variable which we use in the function definition.
+#practice code for parameter concept
+def great(lang):
+    if lang == 'es':
+        print("Yes John")
+    elif lang == 'fr':
+        print("no John")
+    else:
+        print("Hello")
+great("fr")
+great('em')
+great("es")
+
+
