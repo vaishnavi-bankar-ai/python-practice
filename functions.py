@@ -18,3 +18,16 @@ tiny = min("Hello World")
 print(tiny)
 small = min("virtualStudioCodecc")
 print(small)
+#defining and calling/invoking the function :
+# def keyword only defines the funcyion but does not automatically runs the code
+# for execution part,we need to invoke/call the function that is function name()
+# practice code for  defining and invoking function 
+x=5
+print("Hello")
+def print_lyrics():
+    print("I am okay")
+    print("I work all day")
+print("Yes")
+print_lyrics()
+x=x+2
+print(x)
