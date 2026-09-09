@@ -20,7 +20,7 @@ while True:
     print(line)
 print("Done!")
 #continue statement:finishing an iteration with continue: it ends the current iteration and jumps to the top of the loop ans starts the next iteration
-print("New version")
+print("continue statement practice code")
 while True:
     line = input(">")
     if line[0] == "#":
