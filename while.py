@@ -11,4 +11,11 @@ while n>0:
     print("hello")
     print("Fun")
 print("Ohh Sorry")
-
+#break statement/breaking out of loop : It ends the current loop and jumps to the statement immediately following the loop
+#in simple words,break statement means escape or quit the loop immediately and go to next statement of a code
+while True:
+    line = input(">")
+    if line == "done":
+        break
+    print(line)
+print("Done!")
