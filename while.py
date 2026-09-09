@@ -19,3 +19,13 @@ while True:
         break
     print(line)
 print("Done!")
+#continue statement:finishing an iteration with continue: it ends the current iteration and jumps to the top of the loop ans starts the next iteration
+print("New version")
+while True:
+    line = input(">")
+    if line[0] == "#":
+        continue
+    if line == "done":
+        break
+    print(line)
+print("it's Done!")
