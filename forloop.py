@@ -17,6 +17,7 @@ for i in (1,2,3,4,5,6):
         print("yes")
     else:
         print("no")
-print("Done!")
-
-
+print("bye")
+for i in range (1,2,3,4,5):
+    print("i:",i)
+print("almost")
