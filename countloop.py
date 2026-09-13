@@ -26,4 +26,12 @@ for value in [9,41,12,3,74,15]:
     if value>25:
         print("large number:",value)
 print("after")
+#search using a Boolean variable
+found=False
+print("before",found)
+for value in [9,41,12,3,74,15]:
+    if value == 3:
+        found= True
+    print(found,value)
+print("after",found)
 
