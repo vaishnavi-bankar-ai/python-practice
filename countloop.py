@@ -20,4 +20,10 @@ for value in [9,41,12,3,74,15]:
     sum=sum+value
     print(count,sum,value)
 print("after","count:",count,"sum:",sum,"Average:",sum/count)
+#filtering in a loop
+print("before")
+for value in [9,41,12,3,74,15]:
+    if value>25:
+        print("large number:",value)
+print("after")
 
