@@ -19,3 +19,4 @@ while True:
         smallest=n
 print("Maximum is",largest)
 print("Minimum is",smallest)
+print("loop topic concepts are clear")
