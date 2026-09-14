@@ -34,4 +34,26 @@ for value in [9,41,12,3,74,15]:
         found= True
     print(found,value)
 print("after",found)
-
+#loop assignment code for max and minimum value
+largest=None
+smallest=None
+while True:
+    num = input("enter a number:")
+    if num == "done":
+        break
+    try:
+        n=int(num)
+    except:
+        print("Invalid input")
+        continue
+    if largest is None:
+        largest = n
+    elif n> largest:
+        largest= n
+    if smallest is None:
+        smallest=n
+    elif n < smallest:
+        smallest=n
+print("Maximum is",largest)
+print("Minimum is",smallest)
+print("loop topic concepts are clear")
