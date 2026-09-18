@@ -9,4 +9,11 @@ print(x)
 name=input("Enter:")
 y=int(name)-10
 print(y)
+#find any single character in a string
+fruit="banana"
+letter=fruit[1]
+print(letter)
+x=3
+w=fruit[x-1]
+print(w)
 
