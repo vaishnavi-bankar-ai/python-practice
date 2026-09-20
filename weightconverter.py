@@ -1,0 +1,5 @@
+weight_p = input("User,s weight in pounds: ")
+weight_kg= 0.45359 * int(weight_p)
+print("User weight in kg: ",weight_kg)
+print(type(weight_p))
+print(type(weight_kg))
