@@ -9,3 +9,7 @@ print(course.find('o'))
 print(course.find('O'))
 print(course.find('beginners'))
 print(course.find('or'))
+print(course.replace('beginners','Absolute beginners'))
+print(course.replace('P','J'))
+print(course.replace('N','w'))
+
