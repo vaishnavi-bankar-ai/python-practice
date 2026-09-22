@@ -12,4 +12,10 @@ print(course.find('or'))
 print(course.replace('beginners','Absolute beginners'))
 print(course.replace('P','J'))
 print(course.replace('N','w'))
-
+#augmented assignment operator
+x = 10
+x += 3
+print(x)
+y=15
+y -= 4
+print(y)
