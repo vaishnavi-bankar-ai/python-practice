@@ -16,4 +16,6 @@ print(letter)
 x=3
 w=fruit[x-1]
 print(w)
-
+# len function: the built-in function len gives us a length of a string
+fruit=input("enter a name:")
+print(len(fruit))
