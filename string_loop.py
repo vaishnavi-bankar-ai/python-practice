@@ -16,3 +16,11 @@ for letter in word:
     if letter == "a":
         count= count+1
 print(count)
+#to find/get only a piece/part of a string:
+p=input("enter a whole string:")
+print(p[0:4])
+print(p[6:7])
+print(p[6:20])
+print(p[:7])
+print(p[9:])
+print(p[:])
