@@ -9,3 +9,10 @@ while index < len(fruit):
 fruit=input("new fruit name:")
 for letter in fruit:
     print(letter)
+#to identify how many times a certain character comes in a string(find a count of a particular character in a string):
+word=input("enter a name:")
+count=0
+for letter in word:
+    if letter == "a":
+        count= count+1
+print(count)
