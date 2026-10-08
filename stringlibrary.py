@@ -13,3 +13,9 @@ fin = line.find("na")
 print(fin)
 fam = line.find('z')
 print(fam)
+#Search and replace: replace() function is like a 'search and replace' operation in a word processor
+#it replaces all occurrences of the search string with the replacement string
+rain = line.replace('Bob' , 'Jane')
+print(rain)
+rin= line.replace("o","x")
+print(rin)
