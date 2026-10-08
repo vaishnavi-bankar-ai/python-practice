@@ -12,3 +12,13 @@ print("nan" in fruit)
 print("bal" in fruit)
 if "a" in fruit:
     print("Found it !")
+#string comparison :
+word = input("enter a word:")
+if word == "banana":
+    print("All right, bananas.")
+if word < "banana":
+    print("Your word," + word + ", comes before banana.")
+elif word > "banana":
+    print("Your word," + word + ", comes after banana.")
+else:
+    print("All right,bananas")
