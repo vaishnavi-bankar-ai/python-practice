@@ -19,3 +19,7 @@ rain = line.replace('Bob' , 'Jane')
 print(rain)
 rin= line.replace("o","x")
 print(rin)
+#stripping whitespace: lstrip() , rstrip(), strip() functions : removes whitespace at the left, right and at the both end respectively
+print(line.lstrip())
+print(line.rstrip())
+print(line.strip())
