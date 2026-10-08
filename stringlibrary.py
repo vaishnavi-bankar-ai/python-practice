@@ -23,3 +23,7 @@ print(rin)
 print(line.lstrip())
 print(line.rstrip())
 print(line.strip())
+# to find a prefix of a string: startswith() function
+word = "please have a nice day"
+print(word.startswith("please"))
+print(word.startswith("P"))
