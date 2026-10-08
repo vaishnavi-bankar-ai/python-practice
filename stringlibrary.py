@@ -7,3 +7,9 @@ zap = line.lower()
 print(zap)
 nap = line.upper()
 print(nap)
+#find() function to search for a substring
+# if substring is not found, find() returns -1
+fin = line.find("na")
+print(fin)
+fam = line.find('z')
+print(fam)
