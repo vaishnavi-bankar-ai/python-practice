@@ -21,3 +21,10 @@ a=[1,'dolly',20.5]
 b=[30,58,'John']
 c= a+b
 print(c)
+# list can be sliced using slicing operator:
+t=[9,41,12,3,74,15]
+print(t[1:3])
+print(t[:4])
+print(t[3:])
+print(t[:])
+
