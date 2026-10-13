@@ -31,5 +31,16 @@ print(t[:])
 print(friends)
 friends.sort()
 print("sorted list is:",friends)
+#building a new list using a append method:
+stuff=list()
+stuff.append('book')
+stuff.append(23)
+print(stuff)
+stuff.append('cookie')
+print(stuff)
+stuff.append([100,200,'moon'])
+print(stuff)
+friends.append(['Abhi','Rushi'])
+print(friends)
 
 
