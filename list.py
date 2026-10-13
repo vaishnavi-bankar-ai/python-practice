@@ -42,5 +42,13 @@ stuff.append([100,200,'moon'])
 print(stuff)
 friends.append(['Abhi','Rushi'])
 print(friends)
-
+for i in range(len(friends)):
+    friend=friends[i]
+    print("Happy New Year:",friend)
+# other built in function to perform basic mathematical operations on a list:
+print("length:",len(t))
+print("max:",max(t))
+print("min:",min(t))
+print("sum:",sum(t))
+print("average:", sum(t)/len(t))
 
