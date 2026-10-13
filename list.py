@@ -3,3 +3,8 @@ print(['red','yellow'])
 print(['well',[2,'red',65],86.5])
 print([[10,20],[30,40,50]])
 print([])
+#find any single element in a string:
+friends=['Neha','Katha','Eva']
+print(friends[1])
+print(friends[2])
+print(friends[0])
