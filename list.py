@@ -1,0 +1,5 @@
+print([1,99.9,'red'])
+print(['red','yellow'])
+print(['well',[2,'red',65],86.5])
+print([[10,20],[30,40,50]])
+print([])
