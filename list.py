@@ -27,4 +27,9 @@ print(t[1:3])
 print(t[:4])
 print(t[3:])
 print(t[:])
+# sorting of a list: 
+print(friends)
+friends.sort()
+print("sorted list is:",friends)
+
 
