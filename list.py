@@ -16,3 +16,8 @@ print(list(range(len(friends))))
 for i in range(len(friends)):
     friend=friends[i]
     print("Happy New Year:",friend)
+#concatenating(adding) two existing lists to create a new list:
+a=[1,'dolly',20.5]
+b=[30,58,'John']
+c= a+b
+print(c)
