@@ -51,4 +51,14 @@ print("max:",max(t))
 print("min:",min(t))
 print("sum:",sum(t))
 print("average:", sum(t)/len(t))
+#to find average of a list:
+numlist=list()
+while True:
+    inp= input("enter a number:")
+    if inp == 'done':
+        break
+    value=float(inp)
+    numlist.append(value)
+    average = sum(numlist)/len(numlist)
+print("Average of a list:",average)
 
