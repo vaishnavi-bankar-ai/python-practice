@@ -8,3 +8,9 @@ cabinet['fall']=cabinet['fall']+25
 print(cabinet)
 ooo={}
 print(ooo)
+# get() method use in dictionaries for counting 
+counts=dict()
+names=['csev','cwen','csev','zqian','cwen']
+for name in names:
+    counts[name]= counts.get(name,0)+1
+print(counts)
