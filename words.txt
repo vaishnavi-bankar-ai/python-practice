@@ -1,0 +1,24 @@
+Writing programs or programming is a very creative
+And rewarding activity  you can write programs for
+Many reasons ranging from making your living to solving
+A difficult data analysis problem to having fun to helping
+Someone else solve a problem  this book assumes that
+{\em everyone} needs to know how to program and that once
+You know how to program, you will figure out what you want
+To do with your newfound skills
+
+We are surrounded in our daily lives with computers ranging
+From laptops to cell phones  we can think of these computers
+As our personal assistants who can take care of many things
+On our behalf  the hardware in our current-day computers
+Is essentially built to continuously as us the question
+What would you like me to do next
+
+Our computers are fast and have vasts amounts of memory and
+Could be very helpful to us if we only knew the language to
+Speak to explain to the computer what we would like it to
+Do next if we knew this language we could tell the
+Computer to do tasks on our behalf that were reptitive
+Interestingly, the kinds of things computers can do best
+Are often the kinds of things that we humans find boring
+And mind-numbing
