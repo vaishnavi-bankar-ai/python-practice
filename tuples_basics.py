@@ -23,3 +23,11 @@ t=sorted(d.items())
 print(t)
 for k,v in sorted(d.items()):
     print(k,v)
+#sort by value:
+m={'a':10,'c':22,'b':1}
+tmp=list()
+for k,v in m.items():
+    tmp.append((v,k))
+print(tmp)
+tmp=sorted(tmp, reverse=True)
+print(tmp)
