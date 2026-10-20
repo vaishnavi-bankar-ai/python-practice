@@ -13,3 +13,8 @@ print((0,1,20000)<(0,3,4))
 print(('Jones','Sally')<('Jones','Sam'))
 print(('jones','Sally')>('Adams','Sam'))
 print(('AbC','def')>('abc','DEF'))
+#sorting of tuples
+#sort by key:
+d={'a':10,'c':22,'b':1}
+print(d.items())
+print(sorted(d.items()))
