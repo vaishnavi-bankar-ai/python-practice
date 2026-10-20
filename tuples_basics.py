@@ -7,3 +7,9 @@ for (k,v) in d.items():
     print(k,v)
 tups=d.items()
 print(tups)
+#tuples are comaprable:
+print((0,1,2)<(5,1,0))
+print((0,1,20000)<(0,3,4))
+print(('Jones','Sally')<('Jones','Sam'))
+print(('jones','Sally')>('Adams','Sam'))
+print(('AbC','def')>('abc','DEF'))
