@@ -18,3 +18,8 @@ print(('AbC','def')>('abc','DEF'))
 d={'a':10,'c':22,'b':1}
 print(d.items())
 print(sorted(d.items()))
+d={'w':10,'s':22,'u':1}
+t=sorted(d.items())
+print(t)
+for k,v in sorted(d.items()):
+    print(k,v)
