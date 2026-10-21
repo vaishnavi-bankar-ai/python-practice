@@ -44,3 +44,5 @@ print("The Regex version to extract data:")
 import re
 y=re.findall('@([^ ]*)',X)
 print(y)
+z= re.findall('^From .*@([^ ]*)',X)
+print(z)
