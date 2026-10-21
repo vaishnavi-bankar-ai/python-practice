@@ -30,3 +30,6 @@ import re
 x='From: Using the :Character'
 y=re.findall('^F.+:',x)
 print(y)
+# Non-Greedy matching: It prefers shortest possible string
+z= re.findall('^F.+?:',x)
+print(z)
