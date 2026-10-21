@@ -25,3 +25,8 @@ print(m)
 x='My 2 favourite numbers are 128 and 523'
 n=re.findall('[AEIOU]+',x)
 print(n)
+# Greedy Matching : to match the largest possible string:
+import re
+x='From: Using the :Character'
+y=re.findall('^F.+:',x)
+print(y)
