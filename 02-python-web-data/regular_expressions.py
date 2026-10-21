@@ -38,3 +38,9 @@ X='From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008'
 print("String extraction using parentheses:")
 y=re.findall('^From (\S+@\S+)+',X)
 print(y)
+# The Regex version:
+#extact a uct.ac.za from the String X
+print("The Regex version to extract data:")
+import re
+y=re.findall('@([^ ]*)',X)
+print(y)
