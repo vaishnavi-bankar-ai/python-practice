@@ -33,3 +33,8 @@ print(y)
 # Non-Greedy matching: It prefers shortest possible string
 z= re.findall('^F.+?:',x)
 print(z)
+# String extraction using parentheses:
+X='From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008'
+print("String extraction using parentheses:")
+y=re.findall('^From (\S+@\S+)+',X)
+print(y)
