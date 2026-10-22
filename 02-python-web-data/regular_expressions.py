@@ -46,3 +46,14 @@ y=re.findall('@([^ ]*)',X)
 print(y)
 z= re.findall('^From .*@([^ ]*)',X)
 print(z)
+print("Quiz question:")
+e=re.findall('\S+?@\S+',X)
+print(e)
+f=re.findall('\S?+@\S+?',X)
+print(f)
+#Escape character :
+import re
+x="We just received $10.00 for cookies."
+y=re.findall('\$[0-9.]+',x)
+print(y)
+
